@@ -1,0 +1,20 @@
+2.	Menampilkan rata rata harga perbagian 
+
+by(df_reza$Price, df_reza$Neighborhood, mean)
+by(df_reza$Price, df_reza$Brick, mean)
+
+by(df_reza$Price, df_reza$Neighborhood, mean)
+df_reza$Neighborhood: East
+[1] 124853.8
+--------------------------------- 
+df_reza$Neighborhood: North
+[1] 108114.7
+--------------------------------- 
+df_reza$Neighborhood: West
+[1] 158462.2
+> by(df_reza$Price, df_reza$Brick, mean)
+df_reza$Brick: No
+[1] 122712
+--------------------------------- 
+df_reza$Brick: Yes
+[1] 148711.4
